@@ -17,3 +17,15 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
+And if you have requirements to install
+```
+pip install -r requirements.txt
+```
+
+Make a requirement.txt file based on installed packages
+```
+# shows list of packages
+pip freeze   
+# writes list to file 
+pip freeze > requirements.txt     
+```
